@@ -1,0 +1,103 @@
+<entry xmlns="http://pdbe.org/empiar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.ebi.ac.uk/pub/databases/emtest/empiar/schema/empiar.xsd" accessionCode="EMPIAR-11849" schemaVersion="0.65" public="true">
+    <admin>
+        <currentStatus>REL</currentStatus>
+        <keyDates>
+            <depositionDate>2024-01-08</depositionDate>
+            <releaseDate>2024-02-15</releaseDate>
+            <updateDate>2024-02-15</updateDate>
+        </keyDates>
+        <title>FIB-SEM dataset showing localization of a Golgi matrix protein GM130 in human hepatocellular carcinoma cell (Huh-7)</title>
+        <correspondingAuthor private="true">
+            <authorORCID>0000-0002-4159-6934</authorORCID>
+            <firstName>Eija</firstName>
+            <lastName>Jokitalo</lastName>
+            <organization type="academic">Electron Microscopy Unit, Institute of Biotechnology, University of Helsinki</organization>
+            <street>PL56 (Viikinkaari 9)</street>
+            <townOrCity>Helsinki</townOrCity>
+            <stateOrProvince>Uusimaa</stateOrProvince>
+            <country>Finland</country>
+            <postOrZipCode>00014</postOrZipCode>
+        </correspondingAuthor>
+        <principalInvestigator private="true">
+            <authorORCID>0000-0002-4159-6934</authorORCID>
+            <firstName>Eija</firstName>
+            <lastName>Jokitalo</lastName>
+            <organization type="academic">Electron Microscopy Unit, Institute of Biotechnology, University of Helsinki</organization>
+            <street>PL56 (Viikinkaari 9)</street>
+            <townOrCity>Helsinki</townOrCity>
+            <stateOrProvince>Uusimaa</stateOrProvince>
+            <country>Finland</country>
+            <postOrZipCode>00014</postOrZipCode>
+        </principalInvestigator>
+        <authorsList>
+            <author authorORCID="0000-0003-2190-4909">Belevich I</author>
+            <author authorORCID="0000-0002-4159-6934">Jokitalo E</author>
+        </authorsList>
+        <grantSupport>
+            <grantReference>
+                <fundingBody>Academy of Finland</fundingBody>
+                <code>1331998</code>
+                <country>Finland</country>
+            </grantReference>
+        </grantSupport>
+        <datasetSize units="GB">1.1</datasetSize>
+        <entryDOI>10.6019/EMPIAR-11849</entryDOI>
+        <experimentType>FIB-SEM</experimentType>
+        <scale>cell</scale>
+    </admin>
+    <crossReferences>
+        <citationList>
+            <universalCitation>
+                <nonJournalCitation published="false">
+                    <author authorORCID="0000-0003-2190-4909" order="1">Belevich I</author>
+                    <author authorORCID="0000-0002-4159-6934" order="2">Jokitalo E</author>
+                    <bookTitle>Localization of a Golgi matrix protein GM130 in human hepatocellular carcinoma cell (Huh-7)</bookTitle>
+                    <publisher></publisher>
+                    <publicationLocation></publicationLocation>
+                    <country></country>
+                </nonJournalCitation>
+            </universalCitation>
+        </citationList>
+        <relatedEmpiarEntries>
+            <empiarEntry>EMPIAR-11746</empiarEntry>
+        </relatedEmpiarEntries>
+    </crossReferences>
+    <imageSet>
+        <name>FIB-SEM dataset showing localization of a Golgi matrix protein GM130 (purple) in human hepatocellular carcinoma cell (Huh-7)</name>
+        <directory>/data/Images</directory>
+        <category>reconstructed volumes</category>
+        <headerFormat>TIFF</headerFormat>
+        <dataFormat>TIFF</dataFormat>
+        <numImagesOrTiltSeries>564</numImagesOrTiltSeries>
+        <framesPerImage>1</framesPerImage>
+        <voxelType>UNSIGNED BYTE</voxelType>
+        <dimensions>
+            <imageWidth>3269</imageWidth>
+            <pixelWidth>40.0</pixelWidth>
+            <imageHeight>1397</imageHeight>
+            <pixelHeight>40.0</pixelHeight>
+        </dimensions>
+        <details>Huh7, a human hepatoma-derived cell was immunostained using antibody against Golgi matrix protein GM130 and imaged using Focused Ion Beam Scanning Electron Microscopy (FIB-SEM) with voxels of 4.0 x 4.0 x 8.0 nm.
+
+Immunolabeling as described in
+Lak B, Li S, Belevich I, Sree S, Butkovic R, Ikonen E, Jokitalo E. Specific subdomain localization of ER resident proteins and membrane contact sites resolved by electron microscopy. Eur J Cell Biol. 2021 Sep-Nov;100(7-8):151180. doi: 10.1016/j.ejcb.2021.151180. Epub 2021 Oct 4
+
+Stained using ferrocyanide-reduced osmium + thiocarbohydrazide + osmium (OTO) method
+
+Purified mouse anti-GM130 was from BD biosciences.</details>
+        <segmentationList>
+            <segmentation segmentationId="315">
+                <file>data/Labels</file>
+                <description>Segmentation model of gold particles of a human hepatoma-derived cell (Huh-7) immunostained using antibody against Golgi matrix protein GM130 and imaged using Focused Ion Beam Scanning Electron Microscopy (FIB-SEM) with voxels of 4.0 x 4.0 x 8.0 nm
+Segmentation was done in DeepMIB using 54 images as a training set
+
+I. Belevich, and E. Jokitalo, DeepMIB: User-friendly and open-source software for training of deep learning network for biological image segmentation, PLoS Comput Biol. 2021 Mar 2;17(3):e1008374. doi: 10.1371/journal.pcbi.1008374</description>
+                <originalFiles>data/Images</originalFiles>
+                <originalFormat>TIFF</originalFormat>
+            </segmentation>
+        </segmentationList>
+        <micrographsFilePattern></micrographsFilePattern>
+        <pickedParticlesFilePattern></pickedParticlesFilePattern>
+        <pickedParticlesDirectory></pickedParticlesDirectory>
+    </imageSet>
+</entry>
